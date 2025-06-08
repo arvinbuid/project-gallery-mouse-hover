@@ -18,7 +18,7 @@ const Project = ({ index, title, setModal }: ProjectProps) => {
         >
             <div>
                 <h2>{title}</h2>
-                <p>Design & Development</p>
+                <p>PERSONAL PROJECT</p>
             </div>
         </div>
     );
