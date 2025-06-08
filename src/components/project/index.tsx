@@ -16,8 +16,10 @@ const Project = ({ index, title, setModal }: ProjectProps) => {
             onMouseLeave={() => { setModal({ active: false, index: index }) }}
             className={styles.project}
         >
-            <h2>{title}</h2>
-            <p>Design & Development</p>
+            <div>
+                <h2>{title}</h2>
+                <p>Design & Development</p>
+            </div>
         </div>
     );
 }

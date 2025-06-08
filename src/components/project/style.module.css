@@ -3,11 +3,27 @@
   width: 100%;
   justify-content: space-between;
   align-items: center;
-  padding: 50px 100px 50px 100px;
+  padding: 0;
   border-top: 1px solid rgb(201, 201, 201);
   cursor: pointer;
   transition: all 0.2s;
 }
+
+.project div {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 50px 0 50px;
+
+  @media (max-width: 768px) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
 .project:last-of-type {
   border-bottom: 1px solid rgb(201, 201, 201);
 }
@@ -26,12 +42,21 @@
 
 .project h2 {
   font-size: 50px;
-  margin: 0px;
   font-weight: 400;
   transition: all 0.4s;
+  whitespace: nowrap;
+
+  @media (max-width: 768px) {
+    font-size: 35px;
+  }
+
+  @media (max-width: 480px) {
+    font-size: 25px;
+  }
 }
 
 .project p {
   transition: all 0.4s;
   font-weight: 300;
+  whitespace: nowrap;
 }
