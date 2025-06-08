@@ -2,7 +2,7 @@
 
 A project gallery project featuring a hover animation using Nextjs, GSAP and Framer Motion. Inspired by: https://dennissnellenberg.com/
 
-<!-- ![Curved Menu](public/assets/project-gallery-mouse-hover.gif) -->
+![Curved Menu](public/assets/project-gallery-mouse-hover.gif)
 
 ### Usage
 
