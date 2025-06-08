@@ -66,9 +66,8 @@ const Modal = ({ modal, projects }: ModalProps) => {
                                 <Image
                                     src={`/images/${src}`}
                                     alt="project image"
-                                    width={300}
+                                    width={325}
                                     height={0}
-                                    style={{ width: "auto", height: "auto" }}
                                 />
                             </div>
                         })

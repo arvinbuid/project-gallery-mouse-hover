@@ -13,8 +13,8 @@ const projects = [
     color: "#000000"
   },
   {
-    title: "Property Hub",
-    src: "property-hub.png",
+    title: "The Wild Oasis",
+    src: "the-wild-oasis.png",
     color: "#8C8C8C"
   },
   {
@@ -23,10 +23,10 @@ const projects = [
     color: "#EFE8D3"
   },
   {
-    title: "Workhive",
-    src: "workhive.png",
+    title: "Propery Hub",
+    src: "property-hub.png",
     color: "#706D63"
-  },
+  }
 ]
 
 export default function Home() {
