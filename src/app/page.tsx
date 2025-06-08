@@ -41,7 +41,7 @@ export default function Home() {
           ))
         }
       </div>
-      <Modal />
+      <Modal modal={modal} projects={projects} />
     </main>
   );
 }
